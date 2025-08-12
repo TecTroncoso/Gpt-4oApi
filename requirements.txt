@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+httpx
+pydantic
+uvloop; sys_platform != "win32"
